@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Signika-Bold';
+    src: url('http://localhost/projects/assets/Signika-Bold.ttf')  format('truetype'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Signika-SemiBold';
+    src: url('http://localhost/projects/assets/Signika-SemiBold.ttf')  format('truetype'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Signika-Light';
+    src: url('http://localhost/projects/assets/Signika-Light.ttf')  format('truetype'); /* IE9 Compat Modes */
+}
+@font-face {
+    font-family: 'Signika';
+    src: url('http://localhost/projects/assets/Signika-Regular.ttf')  format('truetype'); /* IE9 Compat Modes */
+}
+/* 
+azul oscuro #263239
+azul claro  #95bfcb
+amarillo    #c39b52
+*/
+body,#app,input,select,option{
+    font-family: 'Signika' !important;
+}
+p.info-text,button{
+    font-family: 'Signika-Bold' !important;
+}
+label{
+    font-family: 'Signika-SemiBold' !important;
+}
+body{
+    background-image: url('http://localhost/projects/assets/background-sky.svg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center right ;
+    /* background-color: #95bfcb ; */
+    width: 100%;
+    height: 100%;
+}
+section{
+    height: 100vh;
+}
+input[type="text"],input[type="date"],select
+{
+    background: transparent !important;
+    border: 2px solid #263239 !important;
+    border-radius:20px !important;
+    color:#fff !important;
+}
+input[type="text"]:focus,input[type="date"]:focus
+{
+    background: transparent !important;
+    color:#fff !important;
+}
+select option{
+    color:#000 !important;
+}
+.form-group{
+    margin: 15px 0px !important;
+}
+.form-group input,button{
+    margin-top:10px !important;
+}
+.btn.primary-color{
+    background-color:#c39b52;
+    color:#fff;
+}
+hr{
+    color:#fff;
+}
+/* .form-check-input:checked {
+    background-color: transparent;
+    border-color: #263239;
+} */
+select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background: transparent !important;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='white'/></g></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position-x: 97% !important;
+    background-position-y: 5px !important;
+    margin-right: 2rem !important;
+    padding-right: 2rem !important;
+}
+.logo{
+    width:50px;
+}
